@@ -6,7 +6,7 @@ public class Field {
         createWalls();
     }
 
-    public static void createWalls() {
+    static void createWalls() {
         int k = (field.length) / 2;
         int p = (field[0].length) / 2;
         for (int j = 1; j < field.length - 1; j++) {

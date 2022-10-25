@@ -70,7 +70,7 @@ public class MoveControl {
         findWay(k, p);
     }
     
-    public static void findWay(int i, int j) {
+    static void findWay(int i, int j) {
         
         if (upfind(i, j)) {
             int k = (Queue.db.get(0))[0];
